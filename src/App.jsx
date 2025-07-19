@@ -49,6 +49,7 @@ function App() {
   return (
     <div>
       <h1>Phonebook</h1>
+      
       <ContactForm onAddContact={handleAddContact} />
       <SearchBox value={filter} onChange={(e) => setFilter(e.target.value)} />
       <ContactList
